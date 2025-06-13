@@ -1,4 +1,3 @@
-```markdown
 # 🩺 MediBot – Your Health Companion
 
 MediBot is a friendly health assistant chatbot that provides intelligent answers to your medical and mental health queries using a combination of **Sentence Transformers** and **Streamlit**. It’s powered by curated datasets from real doctor-patient interactions.
@@ -9,34 +8,33 @@ MediBot is a friendly health assistant chatbot that provides intelligent answers
 
 ## 📸 Demo Screenshot
 
-![MediBot Demo]
 <img width="956" alt="screensot5" src="https://github.com/user-attachments/assets/7606faba-e136-4027-b01c-bf8329741053" />
 <img width="956" alt="screensot4" src="https://github.com/user-attachments/assets/57cb4a14-add7-40aa-8a0a-f5eab0db2a69" />
-<img width="956" alt="Screenshot57" src="https://github.com/user-attachments/assets/96233d65-f932-4769-8ca3-5c3622706d9d" />
+
 ---
 
 ## 🚀 Features
 
-- 🔍 Semantic search over medical & mental health conversations
-- 🧠 Uses **SentenceTransformer (`all-MiniLM-L6-v2`)** for embedding medical questions
-- 🤖 Chatbot trained on **two datasets** with 10,000+ samples
-- 🌐 Deployed using **Streamlit** with a clean UI
-- 💡 Provides context-aware answers with real-world tone
-- 🏥 Trained on topics including depression, anxiety, sleep issues, breathing techniques, CBT, and more
+- 🔍 Semantic search over medical & mental health conversations  
+- 🧠 Uses **SentenceTransformer (`all-MiniLM-L6-v2`)** for embedding medical questions  
+- 🤖 Chatbot trained on **two datasets** with 10,000+ samples  
+- 🌐 Deployed using **Streamlit** with a clean UI  
+- 💡 Provides context-aware answers with real-world tone  
+- 🏥 Trained on topics including depression, anxiety, sleep issues, breathing techniques, CBT, and more  
 
 ---
 
 ## 🧰 Tech Stack
 
-| Technology        | Purpose                      |
-|-------------------|-------------------------------|
-| Python            | Core programming language     |
-| Pandas            | Data processing               |
-| SentenceTransformers | NLP embeddings            |
-| Joblib            | Model & data serialization    |
-| Scikit-learn      | Cosine similarity             |
-| Streamlit         | Web UI framework              |
-| TQDM              | Progress bar during training  |
+| Technology           | Purpose                          |
+|----------------------|-----------------------------------|
+| Python               | Core programming language         |
+| Pandas               | Data processing                   |
+| SentenceTransformers | NLP embeddings                    |
+| Joblib               | Model & data serialization        |
+| Scikit-learn         | Cosine similarity implementation  |
+| Streamlit            | Web UI framework                  |
+| TQDM                 | Progress bar during embedding     |
 
 ---
 
@@ -48,12 +46,10 @@ MediBot is a friendly health assistant chatbot that provides intelligent answers
 ├── answers.joblib          # Saved answers
 ├── ai-medical-chatbot.csv  # Medical Q&A dataset
 ├── mental-health.csv       # Mental health Q&A dataset
-├── Screenshot57.PNG        # UI screenshot
+├── Screenshots.PNG         # UI screenshot
 └── README.md               # This file
+
 ```
-
----
-
 ## 📦 How to Run Locally
 
 1. **Clone the repo**  
@@ -108,7 +104,19 @@ streamlit run app.py
 
 ## 🧑‍💻 Developed By
 
-Muhammad Haseeb Cheema
+### Muhammad Haseeb Cheema
+
+Connect with me:
+
+<a href="https://www.linkedin.com/in/haseeb01/" target="_blank" style="text-decoration:none;">
+  <img src="https://img.icons8.com/fluency/30/linkedin.png" alt="LinkedIn" /> LinkedIn
+</a>  
+<br>
+
+<a href="https://github.com/Haseeb-01" target="_blank" style="text-decoration:none;">
+  <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub" /> GitHub
+</a>
+
 
 ---
 
@@ -137,18 +145,8 @@ pandas
 scikit-learn
 requests
 tqdm
-
-
 ---
 
-#### ✅ 3. **Final Touches**
-- ✅ Add a clickable LinkedIn badge in the **Developed By** section:
-```markdown
-## 🧑‍💻 Developed By
-
-**Muhammad Haseeb Cheema**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/haseeb01/)  
-[![GitHub](https://img.shields.io/badge/GitHub-121013?style=flat&logo=github&logoColor=white)](https://github.com/Haseeb-01)
 
 
 
